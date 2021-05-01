@@ -1,5 +1,5 @@
 ![Preview](./preview.jpg)
 
-# TabFilm ad elemont remover
+# TabFilm ad element remover
 
 ## Chrome plugin extension

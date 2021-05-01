@@ -1,0 +1,19 @@
+{
+  "name": "tabfilmadblockremover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Max-0n/chromePlugins.git"
+  },
+  "keywords": [
+    "adBlock",
+    "tabfilm"
+  ],
+  "author": "Max0n",
+  "license": "ISC"
+}

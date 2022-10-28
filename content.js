@@ -55,7 +55,7 @@ if (/vk.com/.test(window.location.origin)) {
   }
 }
 
-// mts swagger.json
+// Jira darkTheme (demo)
 if (/jira.mts.ru/.test(window.location.origin) || /confluence.cloud.mts.ru/.test(window.location.origin)) {
   try {
     document.head.innerHTML += `
@@ -84,9 +84,9 @@ if (/jira.mts.ru/.test(window.location.origin) || /confluence.cloud.mts.ru/.test
         #content .aui-sidebar .aui-page-header { margin-top: 55px; }
         #issue-content { padding-top: 40px; }
       </style>
-    `; //#2e3d54
+    `;
     window.dispatchEvent(new Event('resize'));
-  } catch(error) {//#0747a6
+  } catch(error) {
     console.error('Не удалось поменять стили', error);
   }
 }
